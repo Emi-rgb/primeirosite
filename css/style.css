@@ -1,47 +1,59 @@
 body{
-    text-align: center; 
-    font-family: open sans,sans-serif; 
-    background:#8a71c9;
-    color:#ffffff; 
+    text-align: center-justify; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background:#C8CFDB;
+    color:#042A7F; 
     margin: 0 0 30px 0;
     
 }
 
-h1{
-    font-size: 60px;
-    font-weight:300;
+h1{ 
+    text-align: center;
+    font-size: 100px;
+    font-weight:700;
+    margin: 5% 15%;
+    color:#042A7F;
+  
 }
 
+h1
+    { font-family Ubuntu, Cantarell, 'Open Sans', sans-serif; }
+
 h2{
-    color:#2a0074;
-    font-size: 40px;
+    color:#042A7F;
+     font-size:30px;
+    font-style:italic;
+    margin: 5% 15% 2% 15%;
+
 }
 
 h3{
     font-size:22px;
     font-style:italic;
+    margin: 5% 15% 3% 15%;
+}
+
+h4{
+    font-size: 18px;
+    font-style:italic;
+     margin: 5% 15% 0% 15%;
+     text-align: center;
 }
 
 p{
     font-size:20px; 
     line-height:1,5;
-}
-.titulo-verde{
-    color:#04ff9f;
+    margin: 0 15%;
 }
 
-.titulo-vermelho{
-    color:#FF9E9E;
-}
+
 
 .titulo-amarelo{
-    color:#ffe36d;
+    color:#2a0074;
+     font-style:italic;
 }
 
-section{
-    width:60%;
-    margin: 0% auto;
-}
+
 
 section section{
     width:100%;
@@ -51,43 +63,52 @@ img{
     width:100%;
 }
 
-ul{
-    list-style-type: none;
-    padding:0;
+
+
+.dicas li {
+    
 }
 
-a{
+.dicas a{
     text-decoration:none;
-    color: #99ffff;
+    color: #2a0074;
     font-weight: 700;
-    line-height:2;
+    line-height:1,5;
+    text-align: left;
+
 }
 
-.principal {
-        background-color:#FF6CB5;
+.dicas li{
+     list-style: circle;
+    margin: 2% 15%;
+
+}
+
+ .final{
+    margin: 10% 10%;
+    text-align: center;
+    color:#0C142B;
+    font-weight: 800;
+ 
+ }
+
+ .contato {
+
         height: 40px;
         max-width:60%;
-        margin: 0 auto;
+        margin: 5% 15% 2% 15%;
 
 }
 
-.principal a{
-    color:#FFF;
+.contato a{
+    color:#324163;
     text-decoration: underline;
-    font-weight: normal;
+    font-weight: 400%;
 }
 
-.principal li{
+.contato li{
     display: inline-block; 
     line-height:1,5;
     margin: 0 89px;
 
 }
-
-button{
-    background-color:#41f341;
-    border: 1px solid transparent;
-    padding: 2px 20px;
-    border-radius: 3px; 
-}
-
