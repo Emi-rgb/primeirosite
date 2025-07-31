@@ -36,14 +36,14 @@ h3{
 h4{
     font-size: 18px;
     font-style:italic;
-     margin: 5% 15% 0% 15%;
+     margin: 5% 0% 0% 0%;
      text-align: center;
 }
 
 p{
     font-size:20px; 
     line-height:1,5;
-    margin: 0 15%;
+    margin: 0 15% 2%;
 }
 
 
@@ -96,19 +96,27 @@ img{
 
         height: 40px;
         max-width:60%;
-        margin: 5% 15% 2% 15%;
+        margin: 0% 15% 2% 15%;
 
+}
+
+.contato ul{
+    list-style-type: none;
 }
 
 .contato a{
     color:#324163;
     text-decoration: underline;
     font-weight: 400%;
+    text-align: center;
+    line-height:2;
 }
 
+
 .contato li{
-    display: inline-block; 
+    text-align: center;
     line-height:1,5;
     margin: 0 89px;
+    
 
 }
